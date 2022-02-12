@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+}
+#navv{
+    font-family: 'Poppins';
+    background-color: black;
+    color: #2a3132;
+}
+#home{
+    padding: 400px;
+    background: linear-gradient(90deg, rgba(3,55,13,1) 0%, rgba(1,189,79,1) 27%, rgba(1,135,120,1) 65%, rgba(4,184,164,1) 100%);
+}
+#myevents{
+    padding: 400px;
+    background: linear-gradient(90deg, rgba(4,184,164,1) 0%, rgba(1,150,189,1) 27%, rgba(1,55,135,1) 65%, rgba(4,17,184,1) 100%);
+}
+#newevent{
+    padding: 400px;
+    background: linear-gradient(90deg, rgba(4,17,184,1) 0%, rgba(35,1,189,1) 27%, rgba(84,1,135,1) 65%, rgba(184,4,159,1) 100%);
+}
+#removeevent{
+    padding: 400px;
+    background: linear-gradient(90deg, rgba(184,4,159,1) 0%, rgba(189,1,163,1) 27%, rgba(135,1,53,1) 65%, rgba(184,4,92,1) 100%);
+}
+#head{
+    font-family: 'Poppins';
+    color: black;
+}
+#body{
+    font-family: 'Poppins';
+    color: black;
+}
+#eventtext{
+    font-family: 'Poppins';
+    color: black;
+}
+#createtext{
+    font-family: 'Poppins';
+    color: black;
+}
+#createevent{
+    font-family: 'Poppins';
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+#removetext{
+    font-family: 'Poppins';
+    color: black;
+}
+#removeeventt{
+    font-family: 'Poppins';
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+#date{
+    font-family: 'Poppins';
+    color: black;
+}
+#time{
+    font-family: 'Poppins';
+    color: black;
+}
+#event_name{
+    font-family: 'Poppins';
+    color: black;
+}
+#event1{
+    font-family: 'Poppins';
+    color: black;
+}
+#event2{
+    font-family: 'Poppins';
+    color: black;
+}
+#event3{
+    font-family: 'Poppins';
+    color: black;
+}
+#event4{
+    font-family: 'Poppins';
+    color: black;
+}
+#event5{
+    font-family: 'Poppins';
+    color: black;
+}
+#event6{
+    font-family: 'Poppins';
+    color: black;
+}
+#event7{
+    font-family: 'Poppins';
+    color: black;
+}

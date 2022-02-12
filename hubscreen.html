@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Scheduler</title>
+        <link rel = "stylesheet" href = "hub.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Questrial&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src = "hub.js"></script>
+    </head>
+
+    <body>
+        <nav id = "navv" class = "navbar-inverse" style = "position:sticky;top:0;z-index:99999">
+            <div class = "navbar-header">
+                <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href = "#">Personal Scheduler</a>
+            </div>
+
+            <div class = "collapse navbar-collapse" id = "myNavbar">
+                <ul class = "nav navbar-nav">
+                    <li><a href = "#home">Home</a></li>
+                    <li><a href = "#myevents">My Events</a></li>
+                    <li><a href = "#newevent">New Event</a></li>
+                    <li><a href = "#removeevent">Remove Event</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+<section id = "home">
+    <h1 id = "head">Welcome to Personal Scheduler</h1>
+    <h3 id = "body">Go to the New Event screen to add a new event.</h3>
+</section>
+
+<section id = "myevents">
+    <h2 id = "eventtext">My Events</h2>
+    <br>
+    <br>
+    
+    <p id = "event1">You currently do not have any scheduled events.</p>
+    <p id = "event2"></p>
+    <p id = "event3"></p>
+    <p id = "event4"></p>
+    <p id = "event5"></p>
+    <p id = "event6"></p>
+    <p id = "event7"></p>
+    
+
+
+</section>
+
+<section id = "newevent">
+    <h2 id = "createtext">Create an Event</h2>
+    <br>
+    <input id = "date" style = "width:20%;"placeholder="What date will this event be held on?">
+    <br>
+    <br>
+    <input id = "time" style = "width:20%;" placeholder = "What time will this event be held at?">
+    <br>
+    <br>
+    <input id = "event_name" style = "width:20%;" placeholder = "What is the name of this event?">
+    <br>
+    <br>
+    <button id = "createevent" onclick = "createevent1()">Create Event 1</button>
+    <button id = "createevent" onclick = "createevent2()">Create Event 2</button>
+    <button id = "createevent" onclick = "createevent3()">Create Event 3</button>
+    <button id = "createevent" onclick = "createevent4()">Create Event 4</button>
+    <button id = "createevent" onclick = "createevent5()">Create Event 5</button>
+    <button id = "createevent" onclick = "createevent6()">Create Event 6</button>
+    <button id = "createevent" onclick = "createevent7()">Create Event 7</button>
+</section>
+<section id = "removeevent">
+    <h2 id = "removetext">Remove an Event</h2>
+    <br>
+    <button id = "removeeventt" onclick = "removeevent()">Click on this Button to Remove All Events</button>
+</section>
+</body>
+</html>
+       
